@@ -5,7 +5,7 @@ package jvm.lvjian.com;
  * Description: 局部变量回收
  *
  *
- * +XX:+PrintGCDetails
+ * -XX:+PrintGCDetails
  *
  * @author lvjian
  * @version 1.0.0
