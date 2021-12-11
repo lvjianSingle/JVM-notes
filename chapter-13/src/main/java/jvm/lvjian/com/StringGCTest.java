@@ -4,6 +4,8 @@ package jvm.lvjian.com;
  * Title: StringGCTest
  * Description: String的垃圾回收
  *
+ * -XX:+PrintStringTableStatistics: 显示字符串常量池中的基本使用信息
+ *
  * -Xms15m -Xmx15m -XX:+PrintStringTableStatistics -XX:+PrintGCDetails
  *
  * @author lvjian

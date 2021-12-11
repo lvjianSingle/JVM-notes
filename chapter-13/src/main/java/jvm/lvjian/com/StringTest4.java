@@ -11,8 +11,8 @@ package jvm.lvjian.com;
 public class StringTest4 {
 
     public static void main(String[] args) {
-        String s1 = new String("ab");
-//        String s1 = new String("a") + new String("b");
+//        String s1 = new String("ab");
+        String s1 = new String("a") + new String("b");
         String s3 = s1.intern();
 
         String s2 = "ab";
